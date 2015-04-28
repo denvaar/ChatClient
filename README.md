@@ -47,6 +47,8 @@ TODO:
 -   Sometimes the client throws a nullpointer exception when starting up. Seems
     to be related to the initialization of components. This causes the chat output
     text area's scroll pane to function improperly.   
+-   Convert .WAV sound files to MP3 and modify the code to work propperly with MP3 to save
+    on resource space.   
 
 FIXED:
 -   If an initial connection is not established, and the user clicks on the X button
