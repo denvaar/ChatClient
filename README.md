@@ -41,12 +41,11 @@ If you would like to create a .jar file after compilation, you can run this comm
 jar -cfe FarmChat.jar ChatClient.Client ChatClient/   
 
 
-**BUGS**
-
+**BUGS**   
+TODO:   
 -   Sometimes the client throws a nullpointer exception when starting up. Seems
     to be related to the initialization of components. This causes the chat output
     text area's scroll pane to function improperly.   
+FIXED:
 -   If an initial connection is not established, and the user clicks on the X button
     of the Client window, nothing happens.   
-
-
