@@ -41,14 +41,16 @@ If you would like to create a .jar file after compilation, you can run this comm
 jar -cfe FarmChat.jar ChatClient.Client ChatClient/   
 
 
-**BUGS**   
+**BUGS/IMPROVEMENTS**   
 
 TODO:   
 -   Sometimes the client throws a nullpointer exception when starting up. Seems
     to be related to the initialization of components. This causes the chat output
     text area's scroll pane to function improperly.   
 -   Convert .WAV sound files to MP3 and modify the code to work propperly with MP3 to save
-    on resource space.   
+    on resource space. 
+-   Add a "user is typeing..." message.   
+-   Add ability to chat one on one.   
 
 FIXED:
 -   If an initial connection is not established, and the user clicks on the X button
